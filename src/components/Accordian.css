@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    overflow: hidden;
+    text-wrap: wrap;
+}
+.wrapper{
+    height: 100vh;
+    width:100vw;
+    margin: 0%;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f9eeff;
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-size:     100% ;                     
+    background-repeat:   no-repeat;
+    position: fixed;
+}
+.accordion{
+    width: 456px;
+    height: min-content;
+    margin: 0%;
+    padding: 32px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px #e9d9f3;
+    z-index: 4;
+    background-color: white;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-height: min-content;
+    padding: 25px 0px;
+    border: none;
+    font-weight: 600;
+    background: transparent;
+    text-align: justify;
+}
+
+.answer{
+    width: 90%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ab9aaf;
+    line-height: 16px;
+    text-align: justify;
+}
+.blue{
+    color: #b120e2;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
